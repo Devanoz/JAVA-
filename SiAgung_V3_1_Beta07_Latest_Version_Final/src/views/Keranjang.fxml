@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" prefHeight="692.0" prefWidth="811.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.KeranjangController">
+   <center>
+      <AnchorPane id="AnchorPane" prefHeight="692" prefWidth="811" styleClass="bgWhite" stylesheets="@../css/keranjang.css">
+         <children>
+            <Label layoutX="80.0" layoutY="41.0" text="Keranjang">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Line endX="600.0" layoutX="152.0" layoutY="90.0" startX="-100.0" />
+            <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutX="54.0" layoutY="128.0" prefHeight="439.0" prefWidth="741.0">
+               <content>
+                  <VBox fx:id="vbxMain" prefHeight="438.0" prefWidth="728.0" spacing="10.0" styleClass="bgWhite">
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </VBox>
+               </content>
+            </ScrollPane>
+            <Label layoutX="369.0" layoutY="588.0" prefHeight="17.0" prefWidth="46.0" stylesheets="@../css/akun.css" text="Total :" />
+            <Label fx:id="totalLabel" layoutX="426.0" layoutY="588.0" prefHeight="17.0" prefWidth="89.0" />
+            <Button fx:id="orderBtn" layoutX="440.0" layoutY="620.0" mnemonicParsing="false" onAction="#handleOrderBtn" prefHeight="25.0" prefWidth="61.0" stylesheets="@../css/akun.css" text="Order" />
+            <Label layoutX="262.0" layoutY="103.0" prefHeight="17.0" prefWidth="95.0" text="Nama Produk" />
+            <Label layoutX="433.0" layoutY="103.0" prefHeight="17.0" prefWidth="46.0" text="Jumlah" />
+            <Label layoutX="573.0" layoutY="103.0" prefHeight="17.0" prefWidth="46.0" text="Harga" />
+            <Label layoutX="693.0" layoutY="103.0" prefHeight="17.0" prefWidth="46.0" text="Total" />
+            <Pane id="cartLogo" layoutX="175.0" layoutY="27.0" prefHeight="48.0" prefWidth="55.0" stylesheets="@../css/keranjang.css" />
+            <Pane layoutX="36.0" layoutY="599.0" prefHeight="55.0" prefWidth="211.0" stylesheets="@../css/pagedesc.css">
+               <styleClass>
+                  <String fx:value="bgWhite" />
+                  <String fx:value="bg-siagung" />
+               </styleClass>
+            </Pane>
+            <Pane id="logoDelta" layoutX="499.0" layoutY="5.0" prefHeight="83.0" prefWidth="89.0">
+               <styleClass>
+                  <String fx:value="logoDelta" />
+                  <String fx:value="bgWhite" />
+               </styleClass>
+               <stylesheets>
+                  <URL value="@../css/keranjang.css" />
+                  <URL value="@../css/pagedesc.css" />
+               </stylesheets>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

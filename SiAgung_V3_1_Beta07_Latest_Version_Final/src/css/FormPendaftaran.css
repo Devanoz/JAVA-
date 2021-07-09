@@ -1,0 +1,53 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+
+.root{
+    -fx-font-family:Cambria;
+    -fx-background-color: white;
+    -fx-max-height:400;
+    -fx-min-height:400;
+    -fx-max-width:600;
+    -fx-min-width:600;
+    
+}
+.vbox{
+    -fx-pref-width:200;
+    -fx-background-color:#ebebeb;
+}
+
+#labelJudul{
+    -fx-backg:#00d604;
+}
+
+#judul{
+    -fx-font-size:30;
+    -fx-text-fill:#00d604;
+    -fx-font-weight:bold;
+}
+
+#judul2{
+    -fx-text-fill:#63605f;
+    -fx-font-weight:bold;
+}
+
+.label{
+    -fx-font-weight:bold;
+    -fx-font-size:15;
+    -fx-text-fill:#114d12;
+}
+
+.button{
+    -fx-background-color: #00d604;
+    -fx-background-radius:5,2,2;
+    -fx-background-insets: 0,1,2;
+    -fx-pref-width:149;
+    -fx-font-weight:bold;
+    -fx-text-fill: #ffffff;
+    -fx-alignment:center;
+}
+
+.text-field{
+    -fx-text-fill:grey;
+}

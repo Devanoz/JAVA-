@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="501.0" prefWidth="725.0" stylesheets="@main.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pengiriman.FXMLDocumentController_1">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TableView fx:id="tableview" layoutX="19.0" layoutY="137.0" prefHeight="309.0" prefWidth="687.0">
+        <columns>
+          <TableColumn fx:id="Nama" prefWidth="157.0" text="Nama Lengkap" />
+            <TableColumn fx:id="Alamat" prefWidth="167.0" text=" Alamat" />
+            <TableColumn fx:id="Kurir" prefWidth="155.0" text="Kurir" />
+            <TableColumn fx:id="Resi" prefWidth="122.0" text="No. Resi" />
+        </columns>
+      </TableView>
+      <TextField fx:id="filterField" layoutX="95.0" layoutY="92.0" prefHeight="25.0" prefWidth="348.0" style="-fx-background-color: #E5E7E9;" />
+      <Label layoutX="22.0" layoutY="92.0" text="Search Box">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Pane layoutY="2.0" prefHeight="51.0" prefWidth="725.0" style="-fx-background-color: #228B22;">
+         <children>
+            <Label layoutX="17.0" layoutY="8.0" text="RESI" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="53.0" prefHeight="5.0" prefWidth="725.0" style="-fx-background-color: #ECF142;" />
+      <Button fx:id="buttonSimpan" layoutX="464.0" layoutY="95.0" mnemonicParsing="false" onAction="#buttonCari" text="Cari" />
+    </children>
+</AnchorPane>

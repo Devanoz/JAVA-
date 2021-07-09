@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" maxHeight="400" maxWidth="600" prefHeight="496.0" prefWidth="701.0" stylesheets="@../css/FormPendaftaran.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.FormPendaftaranController">
+   <children>
+      <BorderPane fx:id="borderPane" prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <Pane fx:id="Pane" prefHeight="159.0" prefWidth="92.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <VBox prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #f7f7f7;">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label id="judul" alignment="CENTER" prefHeight="107.0" prefWidth="207.0" text="SiAgung" />
+               </children>
+            </HBox>
+            <ImageView fx:id="logoDelta" fitHeight="200.0" fitWidth="238.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../build/classes/image/DeltaShop.jpeg" />
+               </image></ImageView>
+         </children></VBox>
+      <Label fx:id="usernameAlert" layoutX="413.0" layoutY="197.0" prefHeight="17.0" prefWidth="173.0" />
+      <Label id="judul2" fx:id="daftarAkun" layoutX="342.0" layoutY="33.0" prefHeight="24.0" prefWidth="128.0" style="-fx-font-size: 20;" text="Daftar  Akun" />
+      <Button fx:id="buttonDaftar" layoutX="310.0" layoutY="329.0" mnemonicParsing="false" onAction="#buttonDaftar" prefHeight="32.0" prefWidth="155.0" text="Daftar" />
+      <TextField fx:id="tfPassword" layoutX="251.0" layoutY="259.0" promptText="password" />
+      <Label layoutX="251.0" layoutY="108.0" prefHeight="17.0" prefWidth="43.0" stylesheets="@../css/FormPendaftaran.css" text="Nama" />
+      <TextField fx:id="tfNama" layoutX="251.0" layoutY="136.0" prefHeight="25.0" prefWidth="245.0" promptText="type your name" />
+      <Label layoutX="251.0" layoutY="168.0" prefHeight="17.0" prefWidth="32.0" text="ID" />
+      <TextField fx:id="tfID" layoutX="251.0" layoutY="195.0" promptText="ID/username" />
+      <Label layoutX="251.0" layoutY="231.0" text="Password" />
+   </children>
+</AnchorPane>

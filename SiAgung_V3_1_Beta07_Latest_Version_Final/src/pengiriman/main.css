@@ -1,0 +1,97 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.label{
+    -fx-font-weight:bold;
+    
+    -fx-text-fill:#114d12;
+}
+
+.button{
+    -fx-background-color: #00d604;
+    -fx-background-radius:5,2,2;
+    -fx-background-insets: 0,1,2;
+    
+    -fx-font-weight:bold;
+    -fx-text-fill: #ffffff;
+   
+}
+.text-field{
+    -fx-border-color: grey;
+    -fx-text-fill:grey;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-font-size:15;
+}
+.separator{
+    -fx-background-color:#3079ff;
+    -fx-pref-height:1;
+}
+#judul{
+    -fx-font-size:30;
+}
+#login{
+    -fx-text-fill:#63605f;
+    
+    -fx-alignment:center;
+}
+#layerKiri{
+    -fx-background-color:#e6e6e6
+}
+#hboxJudul{
+    -fx-color:#fcfcfc;
+    -fx-background-radius:2,2,2;
+    -fx-background-size:1;
+ .root{
+    -fx-font-family:Cambria;
+    -fx-background-color: white;
+    -fx-max-height:400;
+    -fx-min-height:400;
+    -fx-max-width:600;
+    -fx-min-width:600;
+    
+}
+.label{
+    -fx-font-weight:bold;
+    -fx-font-size:15;
+    -fx-text-fill:#114d12;
+}
+
+.button{
+    -fx-background-color: #00d604;
+    -fx-background-radius:5,2,2;
+    -fx-background-insets: 0,1,2;
+    -fx-pref-width:149;
+    -fx-font-weight:bold;
+    -fx-text-fill: #ffffff;
+   
+}
+.text-field{
+    -fx-border-color: grey;
+    -fx-text-fill:grey;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-font-size:15;
+}
+.separator{
+    -fx-background-color:#3079ff;
+    -fx-pref-height:1;
+}
+#judul{
+    -fx-font-size:30;
+}
+#login{
+    -fx-text-fill:#63605f;
+    -fx-font-size:20;
+    -fx-alignment:center;
+}
+#layerKiri{
+    -fx-background-color:#e6e6e6;
+}
+#hboxJudul{
+    -fx-color:#fcfcfc;
+    -fx-background-radius:2,2,2;
+    -fx-background-size:1;
+}   
+}

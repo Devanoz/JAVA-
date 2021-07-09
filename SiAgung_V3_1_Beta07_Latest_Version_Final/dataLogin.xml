@@ -1,0 +1,1 @@
+<?xml version="1.0" ?><linked-list><model.Pengguna><nama>Admin</nama><ID>admin</ID><password>admin</password><admin>true</admin><statusOnline>false</statusOnline></model.Pengguna><model.Pengguna><nama>devano</nama><ID>devano</ID><password>devano</password><admin>false</admin><statusOnline>true</statusOnline></model.Pengguna></linked-list>

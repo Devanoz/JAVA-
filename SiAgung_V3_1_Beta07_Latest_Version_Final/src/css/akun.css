@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 2, 2021, 6:11:32 PM
+    Author     : X
+*/
+
+.button{
+    -fx-background-color: #00d604;
+    -fx-background-radius:5,2,2;
+    -fx-background-insets: 0,1,2;
+    -fx-pref-width:149;
+    -fx-font-weight:bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-size:15;
+   
+}
+.label{
+    -fx-font-weight:bold;
+    -fx-font-size:15;
+    -fx-text-fill:#114d12;
+}
+
+.keranjang{
+    -fx-font-size:12;
+    
+}
+
+.btn-page-desc{
+    -fx-pref-width:20;
+    
+}
